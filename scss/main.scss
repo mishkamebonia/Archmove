@@ -1,0 +1,104 @@
+@use './nav.scss';
+@use './menu.scss';
+@use './buttons.scss';
+@use './theme-checkbox.scss';
+@use './main-section.scss';
+@use './swiper.scss';
+@use './footer.scss';
+
+@import 'swiper/css/bundle';
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&family=Playfair+Display:wght@400;500;600;700;800&display=swap');
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Inter', sans-serif;
+}
+
+body {
+  min-width: 390px;
+  background: #fff;
+  overflow-x: hidden !important;
+}
+
+.container {
+  max-width: 342px;
+  margin: 0 auto;
+}
+
+button {
+  background: none;
+  border: none;
+  outline: none;
+
+  cursor: pointer;
+}
+
+img {
+  display: block;
+  width: 100%;
+}
+
+h1 {
+  margin-bottom: 32px;
+
+  color: #000;
+  font-family: Playfair Display;
+  font-size: 48px;
+  font-style: normal;
+  font-weight: 800;
+  line-height: 100%; /* 48px */
+  letter-spacing: -0.96px;
+
+  span {
+    color: #FD665E;
+    font-family: Playfair Display;
+    font-size: 48px;
+    font-style: normal;
+    font-weight: 800;
+    line-height: 100%;
+    letter-spacing: -0.96px;
+  }
+}
+
+h2 {
+  color: #000;
+  text-align: center;
+  font-family: Playfair Display;
+  font-size: 48px;
+  font-style: normal;
+  font-weight: 800;
+  line-height: 100%; /* 48px */
+  letter-spacing: -0.96px;
+
+  span {
+    color: #FD665E;
+    font-family: Playfair Display;
+    font-size: 48px;
+    font-style: normal;
+    font-weight: 800;
+    line-height: 100%;
+    letter-spacing: -0.96px;
+  }
+}
+
+h3 {
+  color: #000;
+  font-family: Playfair Display;
+  font-size: 40px;
+  font-style: normal;
+  font-weight: 800;
+  line-height: 124%; /* 49.6px */
+  letter-spacing: -0.8px;
+}
+
+@media only screen and (min-width: 768px) {
+  body {
+    max-width: 1440px;
+  }
+
+  .container {
+    max-width: 1168px;
+  }
+}

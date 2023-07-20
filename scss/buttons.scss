@@ -1,0 +1,40 @@
+.solid-btn {
+  padding: 8px 32px;
+  align-items: center;
+
+  border-radius: 4px;
+  background: #FD665E;
+
+  color: #FFF;
+  text-align: center;
+  font-family: Inter;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 40px; /* 285.714% */
+  letter-spacing: 0.14px;
+}
+
+.slider-btns {
+  display: flex;
+  gap: 8px;
+
+  height: 48px;
+}
+
+.slider-btn {
+  display: flex;
+  width: 48px;
+  height: 48px;
+  padding: 14px;
+  justify-content: center;
+  align-items: center;
+
+  border-radius: 4px;
+  background: rgba(0, 0, 0, 0.03);
+
+  i {
+    font-size: 20px;
+    color: #FD665E;
+  }
+}

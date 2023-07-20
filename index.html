@@ -4,12 +4,263 @@
     <meta charset="UTF-8" />
     <link rel="icon" type="image/svg+xml" href="/vite.svg" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Vite App</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <title>Archmove</title>
   </head>
   <body>
-    <div class="box">
-      
+    <nav>
+      <div class="container">
+        <div class="nav">
+          <div class="col">
+            <button class="logo">
+              <img src="./images/logo.svg" alt="">
+            </button>
+  
+            <div class="nav-links">
+              <button class="nav-link-btn">How it Works</button>
+              <button class="nav-link-btn">Design Gallery</button>
+              <button class="nav-link-btn">Architects</button>
+              <button class="nav-link-btn">Articles</button>
+            </div>
+          </div>
+          
+          <div class="col">
+            <div class="search-bar">
+              <input type="search" placeholder="search" class="search" id="search-input">
+              <button class="submit">
+                <i class="fa-solid fa-magnifying-glass"></i>
+              </button>
+            </div>
+
+            <div class="sign-in-out">
+              <button class="nav-link-btn">Sign In</button>
+              <button class="solid-btn">Sign Up</button>
+            </div>
+
+            <button class="hamburger-menu" id="menu">
+              <i class="fa-solid fa-bars"></i>
+            </button>
+          </div>
+        </div>
+      </div>
+    </nav>
+
+    <div class="module" id="module">
+      <div class="container">
+        <div class="menu-module" id="menu-module">
+          <div class="head">
+            
+            <div class="checkbox-wrapper-54">
+              <label class="switch">
+                <input type="checkbox" id="theme-checkbox">
+                <span class="slider"></span>
+              </label>
+            </div>
+
+            <button class="close-module" id="close-module">
+              <i class="fa-solid fa-xmark"></i>
+            </button>
+          </div>
+          
+          <div class="nav-links">
+            <button class="nav-link-btn">How it Works</button>
+            <button class="nav-link-btn">Design Gallery</button>
+            <button class="nav-link-btn">Architects</button>
+            <button class="nav-link-btn">Articles</button>
+          </div>
+
+          <div class="sign-in-out">
+            <button class="nav-link-btn">Sign In</button>
+            <button class="solid-btn">Sign Up</button>
+          </div>
+        </div>
+      </div>
     </div>
+
+    <main>
+      <section class="dream-house">
+        <div class="container">
+          <h1>Build Your Dream <span>House</span></h1>
+          <div class="row">
+            <div class="description">
+              <p>100% guaranteed build safe, comfortable and transparent with a project management for the best result</p>
+              <button class="solid-btn">Free Consultation</button>
+            </div>
+            <img src="./images/Image.png">
+          </div>
+        </div>
+      </section>
+
+      <section class="slider">
+        <div class="container">
+          <div class="row">
+            <h3>Build professional valuable room</h3>
+            <div class="slider-btns">
+              <!-- If we need navigation buttons -->
+              <div class="swiper-button-prev1">
+                <button class="slider-btn">
+                  <i class="fa-solid fa-arrow-left"></i>
+                </button>
+              </div>
+              <div class="swiper-button-next1">
+                <button class="slider-btn">
+                  <i class="fa-solid fa-arrow-right"></i>
+                </button>
+              </div>
+            </div>
+          </div>
+          
+          <!-- Slider main container -->
+          <div class="swiper1">
+            <!-- Additional required wrapper -->
+            <div class="swiper-wrapper">
+              <!-- Slides -->
+              <div class="swiper-slide">
+                <img src="./images/img-01.png">
+              </div>
+              <div class="swiper-slide">
+                <img src="./images/img-02.png">
+              </div>
+              <div class="swiper-slide">
+                <img src="./images/img-03.png">
+              </div>
+              <div class="swiper-slide">
+                <img src="./images/img-04.png">
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section class="build-your">
+        <div class="container">
+          <div class="row">
+            <img src="./images/img-5.png">
+
+            <div class="description">
+              <h3>Build your needs with Archmove</h3>
+
+              <div class="card">
+                <img src="./images/icon.svg">
+                <div class="card-info">
+                  <h5>100% guaranteed project completion</h5>
+                  <p>Build safe, comfortable and transparent with a project management application with a joint account.</p>
+                </div>
+              </div>
+              <div class="card">
+                <img src="./images/icon2.svg">
+                <div class="card-info">
+                  <h5>No additional fees</h5>
+                  <p>There are no hidden costs. The value of the offer you get is the value you paid.</p>
+                </div>
+              </div>
+              <div class="card">
+                <img src="./images/icon3.svg">
+                <div class="card-info">
+                  <h5>Get escort from the Team</h5>
+                  <p>Monitor reports from the Arsitag team who check directly in the field.</p>
+                </div>
+              </div>
+            </div>
+          </div>
+          <button class="solid-btn">Free Consultation</button>
+        </div>
+      </section>
+
+      <section class="sound-good">
+        <div class="container">
+          <h3>Sound Too Good To Be True?</h3>
+
+          <div class="row">
+            <img src="./images/queto.svg">
+            <!-- <p class="string">“We just wanted to thank you for this fantastic website! We are so grateful for being able to advertise our Petite cabin and receive feedback from people from all over the U.S. and even further.”</p> -->
+
+            <!-- Slider main container -->
+            <div class="swiper2">
+              <!-- Additional required wrapper -->
+              <div class="swiper-wrapper">
+                <!-- Slides -->
+                <div class="swiper-slide">
+                  <p class="string">“We just wanted to thank you for this fantastic website! We are so grateful for being able to advertise our Petite cabin and receive feedback from people from all over the U.S. and even further.”</p>
+                  <p class="author">Adam Morph — CEO Alfatech</p>
+                </div>
+                <div class="swiper-slide">
+                  <p class="string">"We just wanted to express our deepest gratitude for this amazing website! It has been an incredible platform for us to showcase our Petite cabin and connect with individuals from all across the United States and even beyond."</p>
+                  <p class="author">Sarah Lawson — CTO Alfatech</p>
+                </div>
+                <div class="swiper-slide">
+                  <p class="string">"We wanted to take a moment to express our sincere appreciation for this incredible website! The ability to showcase our Petite cabin and connect with individuals from all over the United States and beyond has been truly invaluable."</p>
+                  <p class="author">Emily Parker — Marketing Manager</p>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="row">
+            <!-- <p class="author">Adam Morph — CEO Alfatech</p> -->
+
+            <div class="slider-btns">
+              <!-- If we need navigation buttons -->
+              <div class="swiper-button-prev2">
+                <button class="slider-btn">
+                  <i class="fa-solid fa-arrow-left"></i>
+                </button>
+              </div>
+              <div class="swiper-button-next2">
+                <button class="slider-btn">
+                  <i class="fa-solid fa-arrow-right"></i>
+                </button>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section class="dream-project">
+        <div class="container">
+          <div class="row">
+            <div class="image">
+              <img src="./images/image6.png">
+              <img src="./images/cloud.png" class="cloud-big">
+              <img src="./images/cloud.png" class="cloud-small">
+            </div>
+            <div class="description">
+              <h2>Realize your dream project with <span>Archmove</span></h2>
+              <button class="solid-btn">FREE CONSULTATION</button>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section class="partners">
+        <div class="container">
+          <h3>Our Partners</h3>
+          <div class="row">
+            <img src="./images/uturn.svg">
+            <img src="./images/nextmove.svg">
+            <img src="./images/pinpoint.svg">
+            <img src="./images/leafe.svg">
+            <img src="./images/terra.svg">
+            <img src="./images/dune.svg">
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <footer>
+      <div class="container">
+        <div class="row">
+          <div class="footer-links">
+            <button class="footer-link">About Us</button>
+            <button class="footer-link">How it Works</button>
+            <button class="footer-link">FAQ</button>
+            <button class="footer-link">Contact Us</button>
+            <button class="footer-link">Privacy Policy</button>
+          </div>
+          <img src="./images/logo.svg" class="logo">
+        </div>
+      </div>
+    </footer>
 
     <script type="module" src="/main.js"></script>
   </body>

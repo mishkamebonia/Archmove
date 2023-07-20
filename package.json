@@ -10,6 +10,10 @@
   },
   "devDependencies": {
     "sass": "^1.63.6",
+    "sass-loader": "^13.3.2",
     "vite": "^4.4.0"
+  },
+  "dependencies": {
+    "swiper": "^10.0.4"
   }
 }

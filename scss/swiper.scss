@@ -1,0 +1,31 @@
+.swiper2 {
+  width: 100%;
+}
+
+.swiper-wrapper {
+  width: 100%;
+}
+
+.swiper-slide {
+  width: 305px;
+  height: 432px;
+
+  img {
+    // width: 305px;
+    // width: 305;
+    height: 432px;
+    object-fit: cover;
+  }
+}
+
+.swiper-button-prev,
+.swiper-button-next {
+  position: relative !important;
+  right: 0 !important;
+  left: 0 !important;
+  width: auto !important;
+  
+  &::after {
+    display: none !important;
+  }
+}

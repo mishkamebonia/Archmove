@@ -1,0 +1,193 @@
+main {
+
+}
+
+.dream-house {
+  margin-bottom: 96px;
+
+  .description {
+    margin-bottom: 40px;
+
+    p {
+      margin-bottom: 24px;
+      width: 305px;
+
+      color: #000;
+      font-family: Inter;
+      font-size: 16px;
+      font-style: normal;
+      font-weight: 400;
+      line-height: 160%; /* 25.6px */
+      letter-spacing: 0.16px;
+    }
+  }
+}
+
+.slider {
+  margin-bottom: 96px;
+
+  .row {
+    margin-bottom: 32px;
+
+    h3 {
+      margin-bottom: 32px;
+    }
+  }
+}
+
+.build-your {
+  margin-bottom: 96px;
+
+  .row {
+    img,
+    h3 {
+      margin-bottom: 40px;
+    }
+  }
+
+  .card {
+    margin-bottom: 40px;
+
+    display: flex;
+    gap: 16px;
+
+    img {
+      width: 64px;
+      height: 64px;
+    }
+
+    .card-info {
+      h5 {
+        margin-bottom: 8px;
+
+        color: #000;
+        font-family: Inter;
+        font-size: 16px;
+        font-style: normal;
+        font-weight: 700;
+        line-height: 160%; /* 25.6px */
+        letter-spacing: 0.16px;
+      }
+
+      p {
+        color: #272727;
+        font-family: Inter;
+        font-size: 16px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: 160%; /* 25.6px */
+        letter-spacing: 0.16px;
+      }
+    }
+  }
+
+  button {
+    width: 100%;
+  }
+}
+
+.sound-good {
+  margin-bottom: 48px;
+
+  h3 {
+    margin-bottom: 64px;
+  }
+
+  img {
+    margin-bottom: 48px;
+
+    width: 57.023px;
+    height: 39.727px;
+  }
+
+  .string {
+    margin-bottom: 40px;
+    height: 266px;
+    overflow: hidden;
+
+    color: #000;
+    font-family: Inter;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 160%; /* 38.4px */
+    letter-spacing: 0.24px;
+  }
+
+  .author {
+    margin-bottom: 40px;
+
+    color: #000;
+    font-family: Inter;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 160%; /* 25.6px */
+    letter-spacing: 0.16px;
+  }
+}
+
+.dream-project {
+  margin-bottom: 48px;
+  padding: 48px 0;
+  background: linear-gradient(180deg, #F9F9F9 0%, rgba(255, 255, 255, 0.00) 100%);
+
+  .image {
+    position: relative;
+
+    img {
+      margin-bottom: 48px;
+    }
+
+    .cloud-big {
+      position: absolute;
+      top: 80px;
+      left: -40px;
+
+      width: 138.314px;
+      height: 87.937px;
+    }
+    .cloud-small {
+      position: absolute;
+      top: 190px;
+      right: 0;
+
+      width: 89.457px;
+      height: 56.821px;
+    }
+  }
+
+  h2 {
+    margin-bottom: 48px;
+  }
+
+  button {
+    display: block;
+    margin: 0 auto;
+  }
+}
+
+.partners {
+  margin-bottom: 48px;
+
+  h3 {
+    margin-bottom: 40px;
+
+    text-align: center;
+  }
+
+  .row {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    gap: 24px;
+  }
+
+  img {
+    fill: #F0F0F0; 
+    padding: 16px;
+    width: 40%;
+    height: 64px;
+  }
+}
