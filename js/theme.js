@@ -15,6 +15,8 @@ const sliderBtns = document.querySelectorAll('.slider-btn')
 
 const dreamProject = document.querySelector('.dream-project')
 
+const svgs = document.querySelectorAll('.svg')
+
 const footerLinks = document.querySelectorAll('.footer-link')
 
 export function theme() {
@@ -49,6 +51,10 @@ export function theme() {
       for (const link of footerLinks) {
         link.style.color = '#fff'
       }
+      for (const svg of svgs) {
+        svg.classList.add('svg-dark')
+      }
+
     } else {
       body.style.background = '#fff'
 

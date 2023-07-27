@@ -1,4 +1,5 @@
 @use './nav.scss';
+@use './search.scss';
 @use './menu.scss';
 @use './buttons.scss';
 @use './theme-checkbox.scss';
@@ -7,6 +8,7 @@
 @use './footer.scss';
 
 @import 'swiper/css/bundle';
+
 @import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&family=Playfair+Display:wght@400;500;600;700;800&display=swap');
 
 * {
@@ -16,10 +18,14 @@
   font-family: 'Inter', sans-serif;
 }
 
+html,
+body {
+  overflow-x: hidden !important;
+}
+
 body {
   min-width: 390px;
   background: #fff;
-  overflow-x: hidden !important;
 }
 
 .container {
@@ -93,12 +99,42 @@ h3 {
   letter-spacing: -0.8px;
 }
 
-@media only screen and (min-width: 768px) {
-  body {
-    max-width: 1440px;
-  }
+.svg-dark {
+  filter: invert(54%) sepia(83%) saturate(2946%) hue-rotate(327deg) brightness(109%) contrast(98%);
+}
 
+@media only screen and (min-width: 1024px) {
   .container {
     max-width: 1168px;
+  }
+
+  h1 {
+    font-size: 96px;
+    letter-spacing: -1.92px;
+
+    span {
+      font-size: 96px;
+      letter-spacing: -1.92px;
+    }
+  }
+
+  h2 {
+    font-size: 64px;
+    letter-spacing: -1.28px;
+
+    span {
+      font-size: 64px;
+      letter-spacing: -1.28px;
+    }
+  }
+
+  h3 {
+    font-size: 48px;
+    letter-spacing: -0.96px;
+
+    span {
+      font-size: 48px;
+      letter-spacing: -0.96px;
+    }
   }
 }
