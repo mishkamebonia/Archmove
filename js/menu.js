@@ -5,11 +5,11 @@ const closeModule = document.querySelector('#close-module')
 export function menu() {
   hamburgerMenu.addEventListener('click', () => {
     module.style.display = 'block'
-    document.body.style.overflow = 'hidden';
+    document.documentElement.style.overflow = "hidden";
   })
 
   closeModule.addEventListener('click', () => {
     module.style.display = 'none'
-    document.body.style.overflow = 'auto';
+    document.documentElement.style.overflow = "auto";
   })
 }

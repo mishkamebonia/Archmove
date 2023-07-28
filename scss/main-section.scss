@@ -8,7 +8,7 @@
       margin-bottom: 24px;
       width: 305px;
 
-      color: #000;
+      color: var(--text-color);
       font-family: Inter;
       font-size: 16px;
       font-style: normal;
@@ -56,7 +56,7 @@
       h5 {
         margin-bottom: 8px;
 
-        color: #000;
+        color: var(--text-color);
         font-family: Inter;
         font-size: 16px;
         font-style: normal;
@@ -66,7 +66,7 @@
       }
 
       p {
-        color: #272727;
+        color: var(--description-text-color);
         font-family: Inter;
         font-size: 16px;
         font-style: normal;
@@ -101,7 +101,7 @@
     height: 266px;
     overflow: hidden;
 
-    color: #000;
+    color: var(--text-color);
     font-family: Inter;
     font-size: 24px;
     font-style: normal;
@@ -113,7 +113,7 @@
   .author {
     margin-bottom: 40px;
 
-    color: #000;
+    color: var(--text-color);
     font-family: Inter;
     font-size: 16px;
     font-style: normal;
@@ -126,7 +126,7 @@
 .dream-project {
   margin-bottom: 48px;
   padding: 48px 0;
-  background: linear-gradient(180deg, #F9F9F9 0%, rgba(255, 255, 255, 0.00) 100%);
+  background: var(--secondary-background-color);
 
   .image {
     position: relative;
@@ -181,7 +181,8 @@
   }
 
   img {
-    opacity: 40%;
+    filter: var(--partner-color);
+    opacity: var(--partner-op);
     padding: 16px;
     width: 40%;
     aspect-ratio: 3 / 2;

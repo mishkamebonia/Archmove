@@ -1,0 +1,36 @@
+:root {
+  --primary-background-color: #fff;
+  --secondary-background-color: linear-gradient(180deg, #F9F9F9 0%, rgba(255, 255, 255, 0) 100%);
+  --text-color: #000;
+  --description-text-color: #272727;
+  --links-text-color: #2c2c2c;
+
+  --button-bg-color: #FD665E;
+  --button-text-color: #fff;
+  --search-btn-bg: #F0F0F0;
+  --search-btn-color: #585858;
+  --slider-btn-bg: rgba(0, 0, 0, 0.03);
+  --theme-btn-color: #F0F0F0;
+
+  --partner-op: 40%;
+  --partner-color: invert(0%) sepia(100%) saturate(7442%) hue-rotate(275deg) brightness(109%) contrast(116%);
+
+  --br-color: #F0F0F0;
+}
+
+body.dark-theme {
+  --primary-background-color: #111;
+  --secondary-background-color: linear-gradient(180deg, #1C1C1C 0%, #151515 100%);
+  --text-color: #fff;
+  --description-text-color: #e9e9e9;
+  --links-text-color: #e9e9e9;
+
+  --search-btn-bg: #1D1D1D;
+  --search-btn-color: #DEDEDE;
+  --slider-btn-bg: rgba(255, 255, 255, 0.03);
+  --theme-btn-color: #303136;
+
+  --partner-color: invert(100%) sepia(0%) saturate(7408%) hue-rotate(199deg) brightness(112%) contrast(104%);
+
+  --br-color: #1F1F1F;
+}

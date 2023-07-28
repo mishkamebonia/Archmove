@@ -1,0 +1,129 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Inter', sans-serif;
+}
+
+html,
+body {
+  overflow-x: hidden !important;
+}
+
+body {
+  min-width: 390px;
+  background: var(--primary-background-color);
+}
+
+.container {
+  max-width: 342px;
+  margin: 0 auto;
+}
+
+button {
+  background: none;
+  border: none;
+  outline: none;
+
+  cursor: pointer;
+}
+
+img {
+  display: block;
+  width: 100%;
+}
+
+h1 {
+  margin-bottom: 32px;
+
+  color: var(--text-color);
+  font-family: Playfair Display;
+  font-size: 48px;
+  font-style: normal;
+  font-weight: 800;
+  line-height: 100%; /* 48px */
+  letter-spacing: -0.96px;
+
+  span {
+    color: var(--button-bg-color);
+
+    font-family: Playfair Display;
+    font-size: 48px;
+    font-style: normal;
+    font-weight: 800;
+    line-height: 100%;
+    letter-spacing: -0.96px;
+  }
+}
+
+h2 {
+  color: var(--text-color);
+  text-align: center;
+  font-family: Playfair Display;
+  font-size: 48px;
+  font-style: normal;
+  font-weight: 800;
+  line-height: 100%; /* 48px */
+  letter-spacing: -0.96px;
+
+  span {
+    color: var(--button-bg-color);
+
+    font-family: Playfair Display;
+    font-size: 48px;
+    font-style: normal;
+    font-weight: 800;
+    line-height: 100%;
+    letter-spacing: -0.96px;
+  }
+}
+
+h3 {
+  color: var(--text-color);
+  font-family: Playfair Display;
+  font-size: 40px;
+  font-style: normal;
+  font-weight: 800;
+  line-height: 124%; /* 49.6px */
+  letter-spacing: -0.8px;
+}
+
+.svg-dark {
+  filter: invert(54%) sepia(83%) saturate(2946%) hue-rotate(327deg) brightness(109%) contrast(98%);
+}
+
+@media only screen and (min-width: 1024px) {
+  .container {
+    max-width: 1168px;
+  }
+
+  h1 {
+    font-size: 96px;
+    letter-spacing: -1.92px;
+
+    span {
+      font-size: 96px;
+      letter-spacing: -1.92px;
+    }
+  }
+
+  h2 {
+    font-size: 64px;
+    letter-spacing: -1.28px;
+
+    span {
+      font-size: 64px;
+      letter-spacing: -1.28px;
+    }
+  }
+
+  h3 {
+    font-size: 48px;
+    letter-spacing: -0.96px;
+
+    span {
+      font-size: 48px;
+      letter-spacing: -0.96px;
+    }
+  }
+}

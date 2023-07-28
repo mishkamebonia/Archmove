@@ -3,9 +3,10 @@
   align-items: center;
 
   border-radius: 4px;
-  background: #FD665E;
 
-  color: #FFF;
+  background: var(--button-bg-color);
+  color: var(--button-text-color);
+
   text-align: center;
   font-family: Inter;
   font-size: 14px;
@@ -31,10 +32,10 @@
   align-items: center;
 
   border-radius: 4px;
-  background: rgba(0, 0, 0, 0.03);
+  background: var(--slider-btn-bg);
 
   i {
     font-size: 20px;
-    color: #FD665E;
+    color: var(--button-bg-color);
   }
 }

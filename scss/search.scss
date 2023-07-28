@@ -1,5 +1,6 @@
 .search-bar {
-  border: 1px solid #f0f0f0;
+  border: 1px solid var(--search-btn-bg);
+  background: var(--search-btn-bg);
   border-radius: 50.421px;
 
   input[type="search"]::-webkit-search-decoration,
@@ -14,15 +15,16 @@
     width: 150px;
     border: none;
     outline: none;
-    background-color: #fff;
+    background: var(--search-btn-bg);
+    color: var(--search-btn-color);
   }
 
   .submit {
     padding: 7.203px;
 
     border-radius: 50.421px;
-    background: #F0F0F0;
-    color: #585858;
+    background: var(--search-btn-bg);
+    color: var(--search-btn-color);
 
     i {
       display: flex;

@@ -4,15 +4,11 @@
     display: none;
   }
 
-  *,
-  ::after,
-  ::before {
-    box-sizing: border-box;
-  }
-
   /* The switch - the box around the slider */
   .switch {
-    background: gray;
+    cursor: pointer;
+    background: var(--theme-btn-color);
+    border-radius: 50px;
 
     --width-of-switch: 3.5em;
     --height-of-switch: 2em;
@@ -30,7 +26,7 @@
   .slider {
     position: absolute;
     cursor: pointer;
-    top: 0;
+    top: 16px;
     left: 0;
     right: 0;
     bottom: 0;
@@ -61,5 +57,13 @@
     background: #303136;
     /* change the value of the second inset in box-shadow to change the angle and direction of the moon  */
     box-shadow: inset -3px -2px 5px -2px #8983f7, inset -10px -4px 0 0 #a3dafb;
+  }
+}
+
+@media only screen and (min-width: 1024px) {
+  .checkbox-wrapper-54 {
+    .slider {
+      top: 14px;
+    }
   }
 }

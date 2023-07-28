@@ -17,8 +17,8 @@ nav {
   padding: 7.203px;
 
   border-radius: 50.421px;
-  background: #F0F0F0;
-  color: #585858;
+  // background: var(--search-btn-bg);
+  // color: var(--search-btn-color);
 
   i {
     display: flex;
@@ -49,7 +49,7 @@ nav {
     margin-bottom: 64px;
 
     button {
-      color: #2C2C2C;
+      color: var(--links-text-color);
       text-align: center;
       font-family: Inter;
       font-size: 14px;

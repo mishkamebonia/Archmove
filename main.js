@@ -1,9 +1,9 @@
 import './scss/main.scss'
 
 import { menu } from './js/menu'
-import { theme } from './js/theme'
+import { toggleTheme } from './js/theme'
 import { swiper } from './js/swiper'
 
 menu()
-theme()
+toggleTheme()
 swiper()
